@@ -24,7 +24,8 @@ def generate_readme():
     readme_content = "# Java Study\n\n"
     readme_content += "Este repositório contém recursos de estudo relacionados a Java e tecnologias associadas.\n\n"
     # Adicionar um badge para a ação de atualização automática do README
-    readme_content += "[![Atualização automática do README](https://github.com/maxsonferovante/java-study/actions/workflows/main.yml/badge.svg)](https://github.com/maxsonferovante/java-study/actions/workflows/main.yml)\n\n"
+
+    readme_content += "[![Atualização automática do README](https://github.com/maxsonferovante/java-study/actions/workflows/main.yml/badge.svg?event=workflow_dispatch)](https://github.com/maxsonferovante/java-study/actions/workflows/main.yml)\n\n"
     # Adicionar seção de livros
     readme_content += "## Livros Disponíveis\n\n"
     
