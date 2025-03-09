@@ -21,6 +21,7 @@ Este repositório contém recursos de estudo relacionados a Java e tecnologias a
 - [Java - Frameworks e Aplicações Corporativas](books/Java_-_Frameworks_e_Aplicações_Corporativas.pdf)
 - [Java 8 Pratico Lambdas Streams e os Novos Recursos da Linguagem - Casa do Codigo](books/Java_8_Pratico_Lambdas_Streams_e_os_Novos_Recursos_da_Linguagem_-_Casa_do_Codigo.pdf)
 - [Java Efetivo (Terceira Edição) (Joshua Bloch) (z-lib.org)](books/Java_Efetivo_(Terceira_Edição)_(Joshua_Bloch)_(z-lib.org).pdf)
+- [Java Interview Questions](books/Java_Interview_Questions.pdf)
 - [Java Programming](books/Java_Programming.pdf)
 - [Java SE 7 Programmer I O guia para sua certificação Oracle Certified Associate - Casa do Codigo](books/Java_SE_7_Programmer_I_O_guia_para_sua_certificação_Oracle_Certified_Associate_-_Casa_do_Codigo.pdf)
 - [Java  Java Programming For Beginners - A Simple Start to Java Programming](books/Java__Java_Programming_For_Beginners_-_A_Simple_Start_to_Java_Programming.pdf)
@@ -41,6 +42,7 @@ Este repositório contém recursos de estudo relacionados a Java e tecnologias a
 - [Scrum Gestão ágil para projetos de sucesso](books/Scrum_Gestão_ágil_para_projetos_de_sucesso.pdf)
 - [SpringFrameworkNotesForProfessionals](books/SpringFrameworkNotesForProfessionals.pdf)
 - [Spring Boot Actuator](books/Spring_Boot_Actuator.pdf)
+- [Spring Boot Da API REST aos Microservices](books/Spring_Boot_Da_API_REST_aos_Microservices.pdf)
 - [Spring Boot Da API REST aos Microservices – 4ª Edição](books/Spring_Boot_Da_API_REST_aos_Microservices_–_4ª_Edição.pdf)
 - [Spring Boot  Microsservicos na - Caio Costa](books/Spring_Boot__Microsservicos_na_-_Caio_Costa.pdf)
 - [Spring MVC Domine o principal framework web Java - Casa do Codigo](books/Spring_MVC_Domine_o_principal_framework_web_Java_-_Casa_do_Codigo.pdf)
@@ -49,13 +51,10 @@ Este repositório contém recursos de estudo relacionados a Java e tecnologias a
 - [Test-Driven Development - Teste e Design no Mundo Real - Casa do Codigo](books/Test-Driven_Development_-_Teste_e_Design_no_Mundo_Real_-_Casa_do_Codigo.pdf)
 - [Vraptor - Desenvolvimento Agil para web com Java - Casa do Codigo](books/Vraptor_-_Desenvolvimento_Agil_para_web_com_Java_-_Casa_do_Codigo.pdf)
 - [caelum-algoritmos-estruturas-dados-java-cs14](books/caelum-algoritmos-estruturas-dados-java-cs14.pdf)
-- [ebook-springboot-4edicao](books/ebook-springboot-4edicao.pdf)
-- [java](books/java.pdf)
 - [java basico e orientação a objetos](books/java_basico_e_orientação_a_objetos.pdf)
 - [java interview questions  Top 20 java interview programs and answers](books/java_interview_questions__Top_20_java_interview_programs_and_answers.pdf)
 - [quarkus-fascicle-practising-v1](books/quarkus-fascicle-practising-v1.pdf)
 - [quarkus-fascicle-understanding-v1](books/quarkus-fascicle-understanding-v1.pdf)
-- [solid](books/solid.pdf)
 
 ## Contribuição
 
