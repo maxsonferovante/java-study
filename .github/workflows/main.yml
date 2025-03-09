@@ -51,6 +51,7 @@ jobs:
       
       - name: Criar e enviar tag de versão
         if: steps.git-check.outputs.changes == 'true'
+        id: create-tag
         run: |
           # Obtém a data atual no formato YYYYMMDD
           DATE_VERSION=$(date +'%Y%m%d')
@@ -65,4 +66,26 @@ jobs:
           # Envia a tag para o repositório remoto
           git push origin ${NEW_TAG}
           echo "Nova tag criada: ${NEW_TAG}"
+          echo "tag=${NEW_TAG}" >> $GITHUB_OUTPUT
+      
+      - name: Criar Release no GitHub
+        if: steps.git-check.outputs.changes == 'true'
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ steps.create-tag.outputs.tag }}
+          name: "Release ${{ steps.create-tag.outputs.tag }}"
+          body: |
+            ## Atualização automática
+            
+            Data: $(date +'%d/%m/%Y')
+            
+            Esta release foi gerada automaticamente após a adição de novos recursos de estudo Java.
+            
+            ### Alterações:
+            - Atualização do arquivo README.md com a lista de recursos disponíveis
+          draft: false
+          prerelease: false
+          generate_release_notes: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
