@@ -1,1 +1,48 @@
+name: Atualização automática do README
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'books/**'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'books/**'
+  workflow_dispatch:  # Permite execução manual do workflow
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Configurar ambiente Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+      
+      - name: Executar script de atualização do README
+        run: |
+          python main.py
+      
+      - name: Verificar mudanças
+        id: git-check
+        run: |
+          git diff --exit-code README.md || echo "changes=true" >> $GITHUB_OUTPUT
+      
+      - name: Commit e Push das alterações
+        if: steps.git-check.outputs.changes == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git commit -m "Atualização automática do README [skip ci]"
+          git push
 
