@@ -13,6 +13,9 @@ on:
       - 'books/**'
   workflow_dispatch:  # Permite execução manual do workflow
 
+permissions:
+  contents: write  # Concede permissão explícita para escrever no repositório
+
 jobs:
   update-readme:
     runs-on: ubuntu-latest
@@ -44,5 +47,5 @@ jobs:
           git config --local user.name "GitHub Action"
           git add README.md
           git commit -m "Atualização automática do README [skip ci]"
-          git push
+          git push origin HEAD:${GITHUB_REF}
 
