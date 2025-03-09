@@ -2,6 +2,8 @@
 
 Este repositório contém recursos de estudo relacionados a Java e tecnologias associadas.
 
+[![Atualização automática do README](https://github.com/maxsonferovante/java-study/actions/workflows/main.yml/badge.svg)](https://github.com/maxsonferovante/java-study/actions/workflows/main.yml)
+
 ## Livros Disponíveis
 
 - [1730609486895](books/1730609486895.pdf)
@@ -52,3 +54,14 @@ Este repositório contém recursos de estudo relacionados a Java e tecnologias a
 - [quarkus-fascicle-practising-v1](books/quarkus-fascicle-practising-v1.pdf)
 - [quarkus-fascicle-understanding-v1](books/quarkus-fascicle-understanding-v1.pdf)
 - [solid](books/solid.pdf)
+
+## Contribuição
+
+Contribuições são bem-vindas! Para contribuir, siga os passos abaixo:
+
+1. Faça um fork deste repositório
+2. Crie uma branch com a sua feature: `git checkout -b minha-feature`
+3. Faça commit das suas mudanças: `git commit -m 'Adiciona minha feature'`
+4. Faça push para a sua branch: `git push origin minha-feature`
+5. Abra um Pull Request
+
