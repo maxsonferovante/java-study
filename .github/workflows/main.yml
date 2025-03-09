@@ -48,4 +48,21 @@ jobs:
           git add README.md
           git commit -m "Atualização automática do README [skip ci]"
           git push origin HEAD:${GITHUB_REF}
+      
+      - name: Criar e enviar tag de versão
+        if: steps.git-check.outputs.changes == 'true'
+        run: |
+          # Obtém a data atual no formato YYYYMMDD
+          DATE_VERSION=$(date +'%Y%m%d')
+          # Conta quantas tags existem com o prefixo da data atual
+          TAG_COUNT=$(git tag -l "v${DATE_VERSION}.*" | wc -l)
+          # Incrementa o contador para a nova tag
+          TAG_COUNT=$((TAG_COUNT + 1))
+          # Cria o nome da nova tag
+          NEW_TAG="v${DATE_VERSION}.${TAG_COUNT}"
+          # Cria a tag localmente
+          git tag -a ${NEW_TAG} -m "Atualização automática em $(date +'%d/%m/%Y')"
+          # Envia a tag para o repositório remoto
+          git push origin ${NEW_TAG}
+          echo "Nova tag criada: ${NEW_TAG}"
 
