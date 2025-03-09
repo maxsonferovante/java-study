@@ -2,7 +2,7 @@
 
 Este repositório contém recursos de estudo relacionados a Java e tecnologias associadas.
 
-[![Atualização automática do README](https://github.com/maxsonferovante/java-study/actions/workflows/main.yml/badge.svg)](https://github.com/maxsonferovante/java-study/actions/workflows/main.yml)
+[![Atualização automática do README](https://github.com/maxsonferovante/java-study/actions/workflows/main.yml/badge.svg?event=workflow_dispatch)](https://github.com/maxsonferovante/java-study/actions/workflows/main.yml)
 
 ## Livros Disponíveis
 
