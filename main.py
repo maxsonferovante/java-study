@@ -23,7 +23,8 @@ def generate_readme():
     # Cabeçalho do README
     readme_content = "# Java Study\n\n"
     readme_content += "Este repositório contém recursos de estudo relacionados a Java e tecnologias associadas.\n\n"
-    
+    # Adicionar um badge para a ação de atualização automática do README
+    readme_content += "[![Atualização automática do README](https://github.com/maxsonferovante/java-study/actions/workflows/main.yml/badge.svg)](https://github.com/maxsonferovante/java-study/actions/workflows/main.yml)\n\n"
     # Adicionar seção de livros
     readme_content += "## Livros Disponíveis\n\n"
     
@@ -41,6 +42,17 @@ def generate_readme():
         
         # Criar um link para o arquivo PDF usando sintaxe Markdown
         readme_content += f"- [{display_name}](books/{file})\n"
+    
+
+    # Adicionar uma seção de contribuição
+    readme_content += "\n## Contribuição\n\n"
+    readme_content += "Contribuições são bem-vindas! Para contribuir, siga os passos abaixo:\n\n"
+    readme_content += "1. Faça um fork deste repositório\n"
+    readme_content += "2. Crie uma branch com a sua feature: `git checkout -b minha-feature`\n"
+    readme_content += "3. Faça commit das suas mudanças: `git commit -m 'Adiciona minha feature'`\n"
+    readme_content += "4. Faça push para a sua branch: `git push origin minha-feature`\n"
+    readme_content += "5. Abra um Pull Request\n\n"
+
     
     # Escrever o conteúdo no arquivo README.md
     with open('README.md', 'w') as readme_file:
