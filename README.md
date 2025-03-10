@@ -11,6 +11,7 @@ Este repositório contém recursos de estudo relacionados a Java e tecnologias a
 - [Aplicacoes Java para a Web Com JDF e JPA - Casa do Codigo](books/Aplicacoes_Java_para_a_Web_Com_JDF_e_JPA_-_Casa_do_Codigo.pdf)
 - [CDI Integre as dependencias e contextos do seu codigo Java - Casa do Codigo](books/CDI_Integre_as_dependencias_e_contextos_do_seu_codigo_Java_-_Casa_do_Codigo.pdf)
 - [Componentes Reutilizaveis em Java Com Reflexoes e Anotacoes - Casa do Codigo](books/Componentes_Reutilizaveis_em_Java_Com_Reflexoes_e_Anotacoes_-_Casa_do_Codigo.pdf)
+- [Consultas Úteis com JPA](books/Consultas_Úteis_com_JPA.pdf)
 - [Desbravando Java e Orientação a Objetos Um guia para o iniciante da linguagem - Casa do Codigo](books/Desbravando_Java_e_Orientação_a_Objetos_Um_guia_para_o_iniciante_da_linguagem_-_Casa_do_Codigo.pdf)
 - [Design Patterns com Java - Projeto orientado a objetos guiado por padrões - Casa do Codigo](books/Design_Patterns_com_Java_-_Projeto_orientado_a_objetos_guiado_por_padrões_-_Casa_do_Codigo.pdf)
 - [Design Patterns com Java  Projeto orientado a objetos guiado por padrões](books/Design_Patterns_com_Java__Projeto_orientado_a_objetos_guiado_por_padrões.pdf)
