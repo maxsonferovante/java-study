@@ -11,14 +11,14 @@ def normalize_filenames():
         # Normalizar o nome do arquivo (substituir espaços por underscores)
         normalized_name = file.replace(' ', '_')
         
-        if normalized_name != file:
-            # Caminho completo dos arquivos
-            old_path = os.path.join(book_dir, file)
-            new_path = os.path.join(book_dir, normalized_name)
+        
+        # Caminho completo dos arquivos
+        old_path = os.path.join(book_dir, file)
+        new_path = os.path.join(book_dir, normalized_name)
             
             # Renomear o arquivo
-            shutil.move(old_path, new_path)
-            print(f"Arquivo renomeado: '{file}' -> '{normalized_name}'")
+        shutil.move(old_path, new_path)
+        print(f"Arquivo renomeado: '{file}' -> '{normalized_name}'")
 
 def generate_readme():
     # Cabeçalho do README
