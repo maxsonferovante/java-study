@@ -46,7 +46,8 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add README.md
-          git commit -m "Atualização automática do README [skip ci]"
+            SHORT_SHA=$(git rev-parse --short HEAD)
+            git commit -m "Atualização automática do README [${SHORT_SHA}] [skip ci]"
           git push origin HEAD:${GITHUB_REF}
       
       - name: Criar e enviar tag de versão
