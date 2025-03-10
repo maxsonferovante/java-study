@@ -47,7 +47,7 @@ def generate_readme():
         date_modified = date_modified.strftime('%d/%m/%Y')
 
         # Criar um link para o arquivo PDF usando sintaxe Markdown com uma numeração e data de modificação
-        readme_content += f"{index+1}. [{display_name}](books/{file}) - {date_modified}\n"
+        readme_content += f"{index+1}. [{file}](books/{display_name}) - {date_modified}\n"
 
     
 
