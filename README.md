@@ -49,12 +49,13 @@ Este repositório contém recursos de estudo relacionados a Java e tecnologias a
 41. [Spring MVC  Domine o principal framework web Java](books/Spring_MVC__Domine_o_principal_framework_web_Java.pdf) - 10/03/2025
 42. [Sprint a Sprint Erros e acerto - Mary Provinciatto](books/Sprint_a_Sprint_Erros_e_acerto_-_Mary_Provinciatto.pdf) - 10/03/2025
 43. [Test-Driven Development - Teste e Design no Mundo Real - Casa do Codigo](books/Test-Driven_Development_-_Teste_e_Design_no_Mundo_Real_-_Casa_do_Codigo.pdf) - 10/03/2025
-44. [Vraptor - Desenvolvimento Agil para web com Java - Casa do Codigo](books/Vraptor_-_Desenvolvimento_Agil_para_web_com_Java_-_Casa_do_Codigo.pdf) - 10/03/2025
-45. [caelum-algoritmos-estruturas-dados-java-cs14](books/caelum-algoritmos-estruturas-dados-java-cs14.pdf) - 10/03/2025
-46. [java basico e orientação a objetos](books/java_basico_e_orientação_a_objetos.pdf) - 10/03/2025
-47. [java interview questions  Top 20 java interview programs and answers](books/java_interview_questions__Top_20_java_interview_programs_and_answers.pdf) - 10/03/2025
-48. [quarkus-fascicle-practising-v1](books/quarkus-fascicle-practising-v1.pdf) - 10/03/2025
-49. [quarkus-fascicle-understanding-v1](books/quarkus-fascicle-understanding-v1.pdf) - 10/03/2025
+44. [Use Conditional Annotationsto Enable Disable Beans Dynamically](books/Use_Conditional_Annotationsto_Enable_Disable_Beans_Dynamically.pdf) - 10/03/2025
+45. [Vraptor - Desenvolvimento Agil para web com Java - Casa do Codigo](books/Vraptor_-_Desenvolvimento_Agil_para_web_com_Java_-_Casa_do_Codigo.pdf) - 10/03/2025
+46. [caelum-algoritmos-estruturas-dados-java-cs14](books/caelum-algoritmos-estruturas-dados-java-cs14.pdf) - 10/03/2025
+47. [java basico e orientação a objetos](books/java_basico_e_orientação_a_objetos.pdf) - 10/03/2025
+48. [java interview questions  Top 20 java interview programs and answers](books/java_interview_questions__Top_20_java_interview_programs_and_answers.pdf) - 10/03/2025
+49. [quarkus-fascicle-practising-v1](books/quarkus-fascicle-practising-v1.pdf) - 10/03/2025
+50. [quarkus-fascicle-understanding-v1](books/quarkus-fascicle-understanding-v1.pdf) - 10/03/2025
 
 ## Contribuição
 
