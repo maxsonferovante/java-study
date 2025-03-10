@@ -1,5 +1,6 @@
 import os
 import shutil
+import datetime
 
 def normalize_filenames():
     # Listar todos os livros
@@ -32,7 +33,7 @@ def generate_readme():
     # Listar todos os livros
     list_of_files = sorted(os.listdir('books'))
     
-    for file in list_of_files:
+    for index, file in enumerate(list_of_files):
         # Remover a extensão .pdf para uma apresentação mais limpa
         book_name = file
         if book_name.lower().endswith('.pdf'):
@@ -41,8 +42,13 @@ def generate_readme():
         # Substituir underscores por espaços para exibição mais amigável
         display_name = book_name.replace('_', ' ')
         
-        # Criar um link para o arquivo PDF usando sintaxe Markdown
-        readme_content += f"- [{display_name}](books/{file})\n"
+        date_modified = os.path.getmtime(f'books/{file}')        
+        date_modified = datetime.datetime.fromtimestamp(date_modified)
+        date_modified = date_modified.strftime('%d/%m/%Y')
+
+        # Criar um link para o arquivo PDF usando sintaxe Markdown com uma numeração e data de modificação
+        readme_content += f"{index+1}. [{display_name}](books/{file}) - {date_modified}\n"
+
     
 
     # Adicionar uma seção de contribuição
