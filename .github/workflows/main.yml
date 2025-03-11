@@ -19,7 +19,6 @@ permissions:
 jobs:
   update-readme:
     runs-on: ubuntu-latest
-    
     steps:
       - name: Checkout do repositório
         uses: actions/checkout@v4
@@ -63,7 +62,7 @@ jobs:
           # Cria o nome da nova tag
           NEW_TAG="v${DATE_VERSION}.${TAG_COUNT}"
           # Cria a tag localmente
-          git tag -a ${NEW_TAG} -m "Atualização automática em $(date +'%d/%m/%Y')"
+          git tag -a ${NEW_TAG} -m "Atualização automática em $(date +'%Y%m%d')"
           # Envia a tag para o repositório remoto
           git push origin ${NEW_TAG}
           echo "Nova tag criada: ${NEW_TAG}"
@@ -78,7 +77,7 @@ jobs:
           body: |
             ## Atualização automática
             
-            Data: $(date +'%d/%m/%Y')
+            Data: $(date +'%Y%m%d') às $(date +'%H:%M:%S')
             
             Esta release foi gerada automaticamente após a adição de novos recursos de estudo Java.
             
