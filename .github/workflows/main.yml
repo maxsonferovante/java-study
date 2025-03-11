@@ -76,9 +76,7 @@ jobs:
           name: "Release ${{ steps.create-tag.outputs.tag }}"
           body: |
             ## Atualização automática
-            
-            Data: $(date +'%Y%m%d') às $(date +'%H:%M:%S')
-            
+                      
             Esta release foi gerada automaticamente após a adição de novos recursos de estudo Java.
             
             ### Alterações:
