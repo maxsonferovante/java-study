@@ -42,8 +42,8 @@ jobs:
       - name: Commit e Push das alterações
         if: steps.git-check.outputs.changes == 'true'
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"          
           git add README.md
             SHORT_SHA=$(git rev-parse --short HEAD)
             git commit -m "Atualização automática do README [${SHORT_SHA}] [skip ci]"
